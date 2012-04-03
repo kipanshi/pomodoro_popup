@@ -2,8 +2,12 @@
 Pomodoro popup
 ==============
 
-The "pomodoro" technique is very handy in programming, it helps
+The *"pomodoro"* technique is very handy in programming, it helps
 not to dive into "tunneling" and makes your work more pleasure and refreshing.
+
+
+What is this?
+=============
 
 The technique I use can be described in several steps:
 
@@ -15,8 +19,14 @@ The technique I use can be described in several steps:
 
 `pomodoro_popup.py` -- is a simple Python GTK app, that every 25 minutes raises a popup window reminding you to stop pomodoro and rest.
 
-*Requirements*: pygtk >= 2.0, gtk
 
+Requirements
+============
+pygtk >= 2.0, gtk
+
+
+Usage
+====
 Just run it by:
 
     python pomodoro_popup.py

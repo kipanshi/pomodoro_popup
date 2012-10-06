@@ -39,8 +39,9 @@ class Base(object):
         time_end = (time_start + time_lapse)
 
         while time_end > time.time():
+            time.sleep(1)
             while gtk.events_pending():
-                gtk.main_iteration()
+                gtk.main_iteration(False)
 
         self.window.show()
 
